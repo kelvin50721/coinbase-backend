@@ -1,13 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const dotenv = require("dotenv");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 
 const authRoutes = require("./routes/authRoutes");
 const cryptoRoutes = require("./routes/cryptoRoutes");
 
-dotenv.config();
 
 const app = express();
 
